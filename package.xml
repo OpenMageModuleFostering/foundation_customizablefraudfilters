@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Foundation_CustomizableFraudFilters</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Hold orders for manual review based on filters you create. No fees, no subscriptions.</summary>
+    <description>Customizable Fraud Filters is a Magento extension which allows store owners to configure a series of filters which are common fraud indicators and then validate each order placed on their site against those filters. Orders which are flagged by a filter are held held for manual review and approval by the store owner. Filters can be tuned to be as liberal or conservative as suits the store owner&#x2019;s needs.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Evan Steiner</name><user>EDS_Magento</user><email>evan.d.steiner@gmail.com</email></author></authors>
+    <date>2014-10-19</date>
+    <time>19:58:48</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Foundation_CustomizableFraudFilters.xml" hash="2df4e5df8a24a98aaea52115600cb0f2"/></dir></target><target name="magecommunity"><dir name="Foundation"><dir name="CustomizableFraudFilters"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Shipping.php" hash="4c6fe8bab2d6f033cdb73f45ef6ded74"/></dir><file name=".DS_Store" hash="6ab7130cd4bbd376753eb4c525ade0ac"/></dir><file name=".DS_Store" hash="0416cfc090912b484a4ab107c631a955"/></dir><file name=".DS_Store" hash="6d34756281b2a246701d3c9ec04531a4"/></dir></dir><dir name="Helper"><file name="Data.php" hash="bdba064e5a6b6e31e93a3a8bd79200b1"/></dir><dir name="Model"><file name="Observer.php" hash="5b25e990e75e346204fd9d47e7ab1d90"/><dir name="Sales"><file name="Order.php" hash="26817b46cfb2cae11680983dcd6bdd3d"/><file name=".DS_Store" hash="51f1e245d83d17ef27bc315fa6e97b4b"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="966d76e22e7a4409c0c594cfe0db3bcb"/><file name="config.xml" hash="c7ead0e96099c0b18a7bdedaa6506d8d"/><file name="system.xml" hash="e848ce8ca9556612ffdefaac741c75a0"/><file name=".DS_Store" hash="1ea47d26cfe5ffc1b678c0db1d97ee85"/></dir><dir name="sql"><dir name="customizablefraudfilters_setup"><file name="mysql4-install-0.1.0.php" hash="0c4c575b08559ffed483ee4128950228"/><file name=".DS_Store" hash="81280b7582a2e9a1f9c58a9a93f243c2"/></dir><file name=".DS_Store" hash="341e88061fdd94e134a543c39b74e6ea"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="fraud_filter_alert.html" hash="c3a06d2276d98dd90d8e9c179c70972d"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.6.0</max></php></required></dependencies>
+</package>
