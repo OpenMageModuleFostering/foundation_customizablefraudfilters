@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Foundation_CustomizableFraudFilters",
+    "name": "OpenMageModuleFostering\/Foundation_CustomizableFraudFilters",
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
     "description": "Hold orders for manual review based on filters you create. No fees, no subscriptions.",
     "authors": [
-    {
-        "name": "Evan Steiner",
-        "email": "evan.d.steiner@gmail.com"
-    }
-],
+        {
+            "name": "Evan Steiner",
+            "email": "evan.d.steiner@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
